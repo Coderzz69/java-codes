@@ -1,76 +1,30 @@
-# Java Codes Repository
+# Java Codes - Lab Session (08-01-2025)
 
-Welcome to the Java Codes Repository! This repository contains a collection of Java programs and examples to help you learn and practice Java programming.
+This repository contains Java programs developed during the lab session on January 8, 2025. Below is a list of the programs included, along with brief descriptions of their functionality.
 
-## Table of Contents
+## Contents
 
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+### 1. ArithmeticProgression.java
+- **Description**: This program calculates and prints the terms of an arithmetic progression given the initial term, common difference, and the number of terms.
 
-## Introduction
+### 2. BinaryDecimal.java
+- **Description**: Converts binary numbers to decimal and vice versa. It provides a user-friendly interface to input numbers and see the conversion results.
 
-This repository includes various Java code examples, from basic to advanced levels. Each example is designed to demonstrate specific Java concepts and techniques.
+### 3. Fibonacci.java
+- **Description**: Generates the Fibonacci sequence up to a specified number of terms. It uses both iterative and recursive approaches for generating the sequence.
 
-## Getting Started
+### 4. MarkAnalysis.java
+- **Description**: Analyzes student marks to calculate the average, highest, lowest marks, and the number of students who passed or failed.
 
-To get started with the Java codes in this repository, follow these steps:
+### 5. Squares_Cubes.java
+- **Description**: Computes the squares and cubes of numbers from 1 to a given limit. It outputs the results in a tabular format for easy reading.
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/java-codes-repo.git
-    ```
-2. Navigate to the repository directory:
-    ```sh
-    cd java-codes-repo
-    ```
-3. Open the project in your favorite Java IDE or text editor.
+## Screenshots
+Each program folder contains a corresponding `.png` image showcasing the output of the program for reference.
 
-## Folder Structure
+## Compilation and Execution
+To compile and run any of these Java programs, use the following commands in your terminal:
 
-The repository is organized as follows:
-
-```
-java-codes-repo/
-│
-├── src/
-│   ├── basics/
-│   ├── oop/
-│   ├── data_structures/
-│   ├── algorithms/
-│   └── ...
-│
-├── README.md
-└── LICENSE
-```
-
-- `src/`: Contains all the Java source code files.
-  - `basics/`: Basic Java programs.
-  - `oop/`: Object-Oriented Programming examples.
-  - `data_structures/`: Data structures implementations.
-  - `algorithms/`: Algorithm implementations.
-
-## Contributing
-
-Contributions are welcome! If you have any Java programs or examples that you would like to add, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-    ```sh
-    git checkout -b feature/your-feature-name
-    ```
-3. Commit your changes:
-    ```sh
-    git commit -m 'Add some feature'
-    ```
-4. Push to the branch:
-    ```sh
-    git push origin feature/your-feature-name
-    ```
-5. Open a pull request.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+```bash
+javac <ProgramName>.java
+java <ProgramName>
