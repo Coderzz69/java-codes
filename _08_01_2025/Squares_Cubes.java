@@ -16,6 +16,7 @@ class Squares_Cubes{
         int n;
 
         try(Scanner in = new Scanner(System.in)){
+            System.out.print("Enter the value : ");
             n = in.nextInt();
         }
 
