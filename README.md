@@ -32,6 +32,7 @@ To get started with the Java codes in this repository, follow these steps:
 
 The repository is organized as follows:
 
+```
 java-codes-repo/
 ├── _08_01_2025/
 │   ├── ArithematicProgression.class
@@ -61,6 +62,7 @@ java-codes-repo/
 ├── .vscode/
 │   ├── settings.json
 ├── LICENSE
+```
 
 
 ### _08_01_2025
