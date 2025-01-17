@@ -44,7 +44,7 @@ java-codes-repo/
 │   ├── MarkAnalysis.class
 │   ├── MarkAnalysis.java
 │   ├── Squares_Cubes.class
-│   ├── Squares_Cubes.java
+│   └── Squares_Cubes.java
 ├── _15_01_2025/
 │   ├── ArmstronNumberChecker.java
 │   ├── ArrayFreqCounter.java
@@ -58,9 +58,9 @@ java-codes-repo/
 │   ├── ReverseWords.java
 │   ├── StringCompressor.java
 │   ├── StringPermutations.java
-│   ├── SubstringOccurenceCounter.java
+│   └── SubstringOccurenceCounter.java
 ├── .vscode/
-│   ├── settings.json
+│   └── settings.json
 └── LICENSE
 ```
 
