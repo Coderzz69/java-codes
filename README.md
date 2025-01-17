@@ -35,15 +35,10 @@ The repository is organized as follows:
 ```
 java-codes-repo/
 ├── _08_01_2025/
-│   ├── ArithematicProgression.class
 │   ├── ArithematicProgression.java
-│   ├── BinaryDecimal.class
 │   ├── BinaryDecimal.java
-│   ├── Fibonacci.class
 │   ├── Fibonacci.java
-│   ├── MarkAnalysis.class
 │   ├── MarkAnalysis.java
-│   ├── Squares_Cubes.class
 │   └── Squares_Cubes.java
 ├── _15_01_2025/
 │   ├── ArmstronNumberChecker.java
