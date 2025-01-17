@@ -61,7 +61,7 @@ java-codes-repo/
 │   ├── SubstringOccurenceCounter.java
 ├── .vscode/
 │   ├── settings.json
-├── LICENSE
+└── LICENSE
 ```
 
 
