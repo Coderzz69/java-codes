@@ -20,7 +20,7 @@ To get started with the Java codes in this repository, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/java-codes-repo.git
+    git clone https://github.com/Coderzz69/java-codes-repo.git
     ```
 2. Navigate to the repository directory:
     ```sh
