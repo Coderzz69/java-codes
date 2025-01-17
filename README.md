@@ -1,26 +1,91 @@
-# Java Codes - Lab Session (08-01-2025)
+# Java Codes Repository
 
-This repository contains Java programs developed during the lab session on January 8, 2025. Below is a list of the programs included, along with brief descriptions of their functionality.
+Welcome to the Java Codes Repository! This repository contains a collection of Java programs and examples to help you learn and practice Java programming.
 
-## Contents
+## Table of Contents
 
-### 1. ArithmeticProgression.java
-- **Description**: This program calculates and prints the terms of an arithmetic progression given the initial term, common difference, and the number of terms.
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### 2. BinaryDecimal.java
-- **Description**: Converts binary numbers to decimal and vice versa. It provides a user-friendly interface to input numbers and see the conversion results.
+## Introduction
 
-### 3. Fibonacci.java
-- **Description**: Generates the Fibonacci sequence up to a specified number of terms. It uses both iterative and recursive approaches for generating the sequence.
+This repository includes various Java code examples, from basic to advanced levels. Each example is designed to demonstrate specific Java concepts and techniques.
 
-### 4. MarkAnalysis.java
-- **Description**: Analyzes student marks to calculate the average, highest, lowest marks, and the number of students who passed or failed.
+## Getting Started
 
-### 5. Squares_Cubes.java
-- **Description**: Computes the squares and cubes of numbers from 1 to a given limit. It outputs the results in a tabular format for easy reading.
+To get started with the Java codes in this repository, follow these steps:
 
-## Screenshots
-Each program folder contains a corresponding `.png` image showcasing the output of the program for reference.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/java-codes-repo.git
+    ```
+2. Navigate to the repository directory:
+    ```sh
+    cd java-codes-repo
+    ```
+3. Open the project in your favorite Java IDE or text editor.
+
+## Folder Structure
+
+The repository is organized as follows:
+
+java-codes-repo/
+├── _08_01_2025/
+│   ├── ArithematicProgression.class
+│   ├── ArithematicProgression.java
+│   ├── BinaryDecimal.class
+│   ├── BinaryDecimal.java
+│   ├── Fibonacci.class
+│   ├── Fibonacci.java
+│   ├── MarkAnalysis.class
+│   ├── MarkAnalysis.java
+│   ├── Squares_Cubes.class
+│   ├── Squares_Cubes.java
+├── _15_01_2025/
+│   ├── ArmstronNumberChecker.java
+│   ├── ArrayFreqCounter.java
+│   ├── ArrayRotation.java
+│   ├── BinarySearch.java
+│   ├── LCMandGCD.java
+│   ├── MatrixTranspose.java
+│   ├── MergeSortedArrays.java
+│   ├── PalindromeChecker.java
+│   ├── PrimeFactorization.java
+│   ├── ReverseWords.java
+│   ├── StringCompressor.java
+│   ├── StringPermutations.java
+│   ├── SubstringOccurenceCounter.java
+├── .vscode/
+│   ├── settings.json
+├── LICENSE
+
+
+### _08_01_2025
+
+- `ArithematicProgression.java`: Generates an arithmetic progression.
+- `BinaryDecimal.java`: Converts binary numbers to decimal.
+- `Fibonacci.java`: Generates Fibonacci sequence.
+- `MarkAnalysis.java`: Analyzes marks to find maximum, minimum, and average.
+- `Squares_Cubes.java`: Computes the squares and cubes of numbers from 1 to a given limit.
+
+### _15_01_2025
+
+- `ArmstronNumberChecker.java`: Checks if a given number is an Armstrong number.
+- `ArrayFreqCounter.java`: Counts the frequency of each element in an array.
+- `ArrayRotation.java`: Rotates the elements of an array by a given number of positions.
+- `BinarySearch.java`: Implements the binary search algorithm to find an element in a sorted array.
+- `LCMandGCD.java`: Calculates the Least Common Multiple (LCM) and Greatest Common Divisor (GCD) of two numbers.
+- `MatrixTranspose.java`: Computes the transpose of a given matrix.
+- `MergeSortedArrays.java`: Merges two sorted arrays into a single sorted array.
+- `PalindromeChecker.java`: Checks if a given string is a palindrome.
+- `PrimeFactorization.java`: Performs prime factorization of a given number.
+- `ReverseWords.java`: Reverses the words in a given sentence.
+- `StringCompressor.java`: Compresses a string using the counts of repeated characters.
+- `StringPermutations.java`: Generates all permutations of a given string.
+- `SubstringOccurenceCounter.java`: Counts the occurrences of a substring within a string.
 
 ## Compilation and Execution
 To compile and run any of these Java programs, use the following commands in your terminal:
