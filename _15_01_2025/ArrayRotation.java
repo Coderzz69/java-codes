@@ -34,6 +34,6 @@ public class ArrayRotation {
             }
 
             ArrayList<Integer> rotatedArray = arrayRotation(arr, k);
-            System.out.println("Rotated Array: " + rotatedArray);        
+            System.out.println("Rotated Array : " + rotatedArray);        
         }
 }
