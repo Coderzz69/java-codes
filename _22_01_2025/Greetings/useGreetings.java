@@ -1,24 +1,36 @@
 import java.time.*;
-import java.util.Calendar;
+import java.util.Scanner;
 
-class useGreetings{
+class useGreetings {
 
     public static void main(String[] args) {
-        Calendar DOB = Calendar.getInstance();
-        Calendar currDate = Calendar.getInstance();
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Enter your name: ");
+            String name = scanner.nextLine();
+            
+            System.out.print("Enter your year of birth (YYYY): ");
+            int year = scanner.nextInt();
+            
+            System.out.print("Enter your month of birth (1-12): ");
+            int month = scanner.nextInt();
+            
+            System.out.print("Enter your day of birth (1-31): ");
+            int day = scanner.nextInt();
+            
+            LocalDate dob = LocalDate.of(year, month, day);
+            LocalDate currDate = LocalDate.now();
+            
+            LocalDateTime localTime = LocalDateTime.now();
+            int currHour = localTime.getHour();
 
-        
-        DOB.set(Calendar.YEAR, 2006); 
-        DOB.set(Calendar.MONTH, Calendar.JANUARY);
-        DOB.set(Calendar.DAY_OF_MONTH, 6);
+            greetings p1 = new greetings(name, dob);
 
-        ZonedDateTime istTime = ZonedDateTime.now(ZoneId.of("Asia/Kolkata"));
-        int currHour = istTime.getHour();
+            System.out.println("Date of Birth: " + dob);
+            System.out.println("Current Date: " + currDate);
 
-        greetings p1 = new greetings("Coonani", DOB);
-
-        p1.greetPerson(currHour);
-        p1.birthdayGreeting(currDate); 
-        p1.calculateAge(currDate);
+            p1.greetPerson(currHour);
+            p1.birthdayGreeting(currDate);
+            p1.calculateAge(currDate);
+        }
     }
 }
