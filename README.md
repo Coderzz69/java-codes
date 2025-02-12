@@ -54,11 +54,23 @@ java-codes-repo/
 │   ├── StringCompressor.java
 │   ├── StringPermutations.java
 │   └── SubstringOccurenceCounter.java
+├── _22_01_2025/
+│   ├── Complex/
+│   │   ├── complex.java
+│   │   └── useComplex.java
+│   ├── Greetings/
+│   │   ├── greetings.java
+│   │   └── useGreetings.java
+│   ├── StraightLine/
+│   │   ├── straightLine.java
+│   │   └── useStraightLine.java
+├── _29_01_2025/
+│   ├── paranthesisStackChecker/
+│   │   └── paranthesisChecker.java
 ├── .vscode/
 │   └── settings.json
 └── LICENSE
 ```
-
 
 ### _08_01_2025
 
@@ -84,9 +96,31 @@ java-codes-repo/
 - `StringPermutations.java`: Generates all permutations of a given string.
 - `SubstringOccurenceCounter.java`: Counts the occurrences of a substring within a string.
 
+### _22_01_2025
+
+- `Complex/complex.java`: Defines a complex number and operations on complex numbers.
+- `Complex/useComplex.java`: Demonstrates the use of the `complex` class.
+- `Greetings/greetings.java`: Defines a class to greet a person based on the time of day and their birthday.
+- `Greetings/useGreetings.java`: Demonstrates the use of the `greetings` class.
+- `StraightLine/straightLine.java`: Defines a straight line and operations on straight lines.
+- `StraightLine/useStraightLine.java`: Demonstrates the use of the `straightLine` class.
+
+### _29_01_2025
+
+- `paranthesisStackChecker/paranthesisChecker.java`: Checks if the parentheses in a given string are balanced.
+
 ## Compilation and Execution
 To compile and run any of these Java programs, use the following commands in your terminal:
 
 ```bash
 javac <ProgramName>.java
 java <ProgramName>
+```
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request with your changes.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
